@@ -23,16 +23,12 @@ I try to protect my S:N ratio of notifications with less effort.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'respond_only_supported'
+gem 'respond_supported_only'
 ```
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install respond_only_supported
 
 ## Usage
 
@@ -66,7 +62,7 @@ end
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/respond_only_supported/fork )
+1. Fork it ( https://github.com/esminc/respond_supported_only/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
