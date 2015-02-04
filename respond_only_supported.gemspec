@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["moro"]
   spec.email         = ["moronatural@gmail.com"]
   spec.summary       = %q{Reject request with unexpected Accept header.}
-  spec.description   = %q{}
+  spec.description   = %q{Support to defines Rails' controller filter that rejects request with unexpected `Accept:` header.}
   spec.homepage      = ""
   spec.license       = "MIT"
 

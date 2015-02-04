@@ -2,7 +2,7 @@
 
 ** We are looking for twinkly name :sparkle:. **
 
-Rails filter syntax suger to reject request with unexpected `Accept:` header.
+Support to defines Rails' controller filter that rejects request with unexpected `Accept:` header.
 
 I unlike to write rails's `respond_to` and/or `respond_with` in all of actions.
 But without them, an application cause a ActionView::MissingTemplate if a request
