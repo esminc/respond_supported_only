@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'respond_only_supported/version'
+require 'respond_supported_only/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "respond_only_supported"
-  spec.version       = RespondOnlySupported::VERSION
+  spec.name          = "respond_supported_only"
+  spec.version       = RespondSupportedOnly::VERSION
   spec.authors       = ["moro"]
   spec.email         = ["moronatural@gmail.com"]
   spec.summary       = %q{Reject request with unexpected Accept header.}

@@ -1,6 +1,6 @@
-require "respond_only_supported/version"
+require "respond_supported_only/version"
 
-module RespondOnlySupported
+module RespondSupportedOnly
   extend ActiveSupport::Concern
 
   class AcceptableFormats

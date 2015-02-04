@@ -1,9 +1,9 @@
-require 'respond_only_supported'
+require 'respond_supported_only'
 
 RSpec.describe FooController, type: :controller do
   before(:all) do
     FooController.class_eval do
-      include RespondOnlySupported
+      include RespondSupportedOnly
 
       respond_only :html
     end

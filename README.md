@@ -1,4 +1,4 @@
-# RespondOnlySupported
+# RespondSupportedOnly
 
 ** We are looking for twinkly name :sparkle:. **
 
@@ -36,7 +36,7 @@ Or install it yourself as:
 
 ## Usage
 
-Include `RespondOnlySupported` in `ApplicationController` (or other controller super class) and declare `respond_only` with support formats argument and filter options.
+Include `RespondSupportedOnly` in `ApplicationController` (or other controller super class) and declare `respond_only` with support formats argument and filter options.
 
 ```ruby
 # routes
