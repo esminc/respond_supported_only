@@ -1,6 +1,6 @@
 # RespondSupportedOnly
 
-** We are looking for twinkly name :sparkle:. **
+:sparkles::sparkles::sparkles:**We are looking for twinkly name**:sparkles::sparkles::sparkles:
 
 Support to defines Rails' controller filter that rejects request with unexpected `Accept:` header.
 
